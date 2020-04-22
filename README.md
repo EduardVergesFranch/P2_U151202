@@ -1,4 +1,4 @@
-# P2_U151202
+# PRACTICE 2 - INTERACTIVE SYSTEMS
 #### Eduard Vergés Franch - u151202
 ### CONTENT OF THE REPOSITORY
   Lab session of Interactive System course of UPF 2019/2020.
@@ -20,3 +20,5 @@ The aim of this practice is to follow two tutorials (link in the ANNEX section) 
 Sheep.cs has a function Drop() that is activated when the sheep collides with the trigger object ("DropSheet"). Theorically, when this happens, a counter located in the GameManager.cs has to be updated summing 1 to its current value. Unfortunately, my implementation sum 2 units to the current value of the counter each time and I couldn't fix it.
 ### ANNEX
 Links for the tutorials:
+https://www.raywenderlich.com/4180726-introduction-to-unity-scripting-part-1
+https://www.raywenderlich.com/4180726-introduction-to-unity-scripting-part-2
