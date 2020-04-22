@@ -20,9 +20,9 @@ The aim of this practice is to follow two tutorials (link in the ANNEX section) 
     5) Audio clips to improve the game experience (provided in the practice content).
 ### PREFABS
 This are the 3 main prefabs of the game:
-  1) Hay Machine: Implement HayMachine.cs.
-  2) Hale Bale: Implement Rotate.cs, Move.cs and DestroyOnTrigger.cs . 
-  3) Sheep: Implement Sheep.cs.
+  1) **Hay Machine**: Implement *HayMachine.cs*.
+  2) **Hale Bale**: Implement *Rotate.cs*,*Move.cs* and *DestroyOnTrigger.cs* . 
+  3) **Sheep**: Implement *Sheep.cs*.
 ### SCRIPTS
   #### Game scene:
     - DestroyOnTrigger.cs: Destroy and object after colliding with a trigger. 
@@ -46,7 +46,7 @@ This are the 3 main prefabs of the game:
     - SoundManager.cs: Manages the audio clips.
     - UIManager.cs: Manages the user interface.
 ### ISSUES
-Sheep.cs has a function Drop() that is activated when the sheep collides with the trigger object ("DropSheet"). Theorically, when this happens, a counter located in the GameManager.cs has to be updated summing 1 to its current value. Unfortunately, my implementation sum 2 units to the current value of the counter each time and I couldn't fix it.
+*Sheep.cs* has a function *Drop()* that is activated when the sheep collides with the trigger object ("DropSheet"). Theorically, when this happens, a counter located in the *GameStateManager.cs* has to be updated summing 1 to its current value. Unfortunately, my implementation sum 2 units to the current value of the counter each time and I couldn't fix it.
 ### ANNEX
 Links for the tutorials:
 
